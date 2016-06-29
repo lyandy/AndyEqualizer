@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF04831DA015D11233C3FD6 /* Pods_AndyEqualizer_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE7EFFDFB7656337EDBEC22 /* Pods_AndyEqualizer_Test.framework */; };
+		B628483E1D23A7EF009F4880 /* AndyEqualizer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B628483D1D23A7EF009F4880 /* AndyEqualizer.bundle */; };
+		B67E223A1D2383DA00B43B42 /* AndyPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E22381D2383DA00B43B42 /* AndyPlayViewController.m */; };
+		B67E223B1D2383DA00B43B42 /* AndyPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B67E22391D2383DA00B43B42 /* AndyPlayViewController.xib */; };
+		B67E22411D2383E500B43B42 /* AndyEqualizerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E223F1D2383E500B43B42 /* AndyEqualizerTableViewController.m */; };
+		B67E22421D2383E500B43B42 /* AndyEqualizerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B67E22401D2383E500B43B42 /* AndyEqualizerTableViewController.xib */; };
+		B67E22461D23840900B43B42 /* AndyEqualizerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E22441D23840900B43B42 /* AndyEqualizerTableViewCell.m */; };
+		B67E22471D23840900B43B42 /* AndyEqualizerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B67E22451D23840900B43B42 /* AndyEqualizerTableViewCell.xib */; };
+		B67E224A1D23853900B43B42 /* UIView+AndyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E22491D23853900B43B42 /* UIView+AndyExtension.m */; };
+		B682F48B1D221A280039AA4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F48A1D221A280039AA4A /* main.m */; };
+		B682F4961D221A290039AA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B682F4951D221A290039AA4A /* Assets.xcassets */; };
+		B682F4A41D221A290039AA4A /* AndyEqualizer_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4A31D221A290039AA4A /* AndyEqualizer_TestTests.m */; };
+		B682F4AF1D221A290039AA4A /* AndyEqualizer_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4AE1D221A290039AA4A /* AndyEqualizer_TestUITests.m */; };
+		B682F4CF1D221F880039AA4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4CB1D221F880039AA4A /* AppDelegate.m */; };
+		B682F4DA1D2225440039AA4A /* AndyMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4D81D2225440039AA4A /* AndyMainTableViewController.m */; };
+		B682F4DB1D2225440039AA4A /* AndyMainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B682F4D91D2225440039AA4A /* AndyMainTableViewController.xib */; };
+		B682F4E31D2225F70039AA4A /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F4E11D2225F70039AA4A /* test.mp3 */; };
+		B682F4ED1D22263B0039AA4A /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4EC1D22263B0039AA4A /* SongModel.m */; };
+		B682F4F91D2234560039AA4A /* AndyEqualizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4F81D2234560039AA4A /* AndyEqualizerView.m */; };
+		B682F50C1D2254300039AA4A /* AndyPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F50B1D2254300039AA4A /* AndyPlayer.m */; };
+		B682F5101D2257A00039AA4A /* 那些年.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F50D1D2257A00039AA4A /* 那些年.mp3 */; };
+		B682F5111D2257A00039AA4A /* 夜空中最亮的星.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F50E1D2257A00039AA4A /* 夜空中最亮的星.mp3 */; };
+		B682F5121D2257A00039AA4A /* IF YOU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F50F1D2257A00039AA4A /* IF YOU.mp3 */; };
+		B682F5141D2259610039AA4A /* 我的天空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F5131D2259610039AA4A /* 我的天空.mp3 */; };
+		B682F51A1D2268A00039AA4A /* AndyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5191D2268A00039AA4A /* AndyConst.m */; };
+		B682F5211D226D640039AA4A /* AndyEqualizerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5201D226D640039AA4A /* AndyEqualizerSlider.m */; };
+		B682F5261D228FE10039AA4A /* AndyEqualizerEffectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */; };
+		B682F52E1D229DB00039AA4A /* AndyEqualizerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F52D1D229DB00039AA4A /* AndyEqualizerConst.m */; };
+		B682F5401D22A2A90039AA4A /* AndyDictStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5311D22A2A90039AA4A /* AndyDictStore.m */; };
+		B682F5411D22A2A90039AA4A /* AndyFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5351D22A2A90039AA4A /* AndyFoundation.m */; };
+		B682F5421D22A2A90039AA4A /* NSObject+AndyDurex.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5371D22A2A90039AA4A /* NSObject+AndyDurex.m */; };
+		B682F5431D22A2A90039AA4A /* NSObject+AndyKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5391D22A2A90039AA4A /* NSObject+AndyKeyValue.m */; };
+		B682F5441D22A2A90039AA4A /* AndyJsonStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F53B1D22A2A90039AA4A /* AndyJsonStore.m */; };
+		B682F5451D22A2A90039AA4A /* AndyUserDefaultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F53F1D22A2A90039AA4A /* AndyUserDefaultsStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B682F4A01D221A290039AA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B682F47E1D221A280039AA4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B682F4851D221A280039AA4A;
+			remoteInfo = AndyEqualizer_Test;
+		};
+		B682F4AB1D221A290039AA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B682F47E1D221A280039AA4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B682F4851D221A280039AA4A;
+			remoteInfo = AndyEqualizer_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AE7EFFDFB7656337EDBEC22 /* Pods_AndyEqualizer_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndyEqualizer_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39239BD7BE6AC64919D8DBBB /* Pods-AndyEqualizer_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyEqualizer_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-AndyEqualizer_Test/Pods-AndyEqualizer_Test.release.xcconfig"; sourceTree = "<group>"; };
+		AF5E24A586307DD6C60A79F9 /* Pods-AndyEqualizer_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyEqualizer_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AndyEqualizer_Test/Pods-AndyEqualizer_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		B628483D1D23A7EF009F4880 /* AndyEqualizer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AndyEqualizer.bundle; sourceTree = "<group>"; };
+		B67E22371D2383DA00B43B42 /* AndyPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyPlayViewController.h; sourceTree = "<group>"; };
+		B67E22381D2383DA00B43B42 /* AndyPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyPlayViewController.m; sourceTree = "<group>"; };
+		B67E22391D2383DA00B43B42 /* AndyPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AndyPlayViewController.xib; sourceTree = "<group>"; };
+		B67E223E1D2383E500B43B42 /* AndyEqualizerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerTableViewController.h; sourceTree = "<group>"; };
+		B67E223F1D2383E500B43B42 /* AndyEqualizerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerTableViewController.m; sourceTree = "<group>"; };
+		B67E22401D2383E500B43B42 /* AndyEqualizerTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AndyEqualizerTableViewController.xib; sourceTree = "<group>"; };
+		B67E22431D23840900B43B42 /* AndyEqualizerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerTableViewCell.h; sourceTree = "<group>"; };
+		B67E22441D23840900B43B42 /* AndyEqualizerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerTableViewCell.m; sourceTree = "<group>"; };
+		B67E22451D23840900B43B42 /* AndyEqualizerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AndyEqualizerTableViewCell.xib; sourceTree = "<group>"; };
+		B67E22481D23853900B43B42 /* UIView+AndyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AndyExtension.h"; sourceTree = "<group>"; };
+		B67E22491D23853900B43B42 /* UIView+AndyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AndyExtension.m"; sourceTree = "<group>"; };
+		B682F4861D221A280039AA4A /* AndyEqualizer_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndyEqualizer_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B682F48A1D221A280039AA4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B682F4951D221A290039AA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B682F49A1D221A290039AA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B682F49F1D221A290039AA4A /* AndyEqualizer_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndyEqualizer_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B682F4A31D221A290039AA4A /* AndyEqualizer_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizer_TestTests.m; sourceTree = "<group>"; };
+		B682F4A51D221A290039AA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B682F4AA1D221A290039AA4A /* AndyEqualizer_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndyEqualizer_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B682F4AE1D221A290039AA4A /* AndyEqualizer_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizer_TestUITests.m; sourceTree = "<group>"; };
+		B682F4B01D221A290039AA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B682F4CA1D221F880039AA4A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B682F4CB1D221F880039AA4A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B682F4D01D221FBF0039AA4A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B682F4D11D221FD60039AA4A /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		B682F4D31D221FFA0039AA4A /* AndyEqualizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndyEqualizer.h; sourceTree = "<group>"; };
+		B682F4D71D2225440039AA4A /* AndyMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyMainTableViewController.h; sourceTree = "<group>"; };
+		B682F4D81D2225440039AA4A /* AndyMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyMainTableViewController.m; sourceTree = "<group>"; };
+		B682F4D91D2225440039AA4A /* AndyMainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AndyMainTableViewController.xib; sourceTree = "<group>"; };
+		B682F4E11D2225F70039AA4A /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		B682F4EB1D22263B0039AA4A /* SongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
+		B682F4EC1D22263B0039AA4A /* SongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongModel.m; sourceTree = "<group>"; };
+		B682F4F71D2234560039AA4A /* AndyEqualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerView.h; sourceTree = "<group>"; };
+		B682F4F81D2234560039AA4A /* AndyEqualizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerView.m; sourceTree = "<group>"; };
+		B682F50A1D2254300039AA4A /* AndyPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyPlayer.h; sourceTree = "<group>"; };
+		B682F50B1D2254300039AA4A /* AndyPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyPlayer.m; sourceTree = "<group>"; };
+		B682F50D1D2257A00039AA4A /* 那些年.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "那些年.mp3"; sourceTree = "<group>"; };
+		B682F50E1D2257A00039AA4A /* 夜空中最亮的星.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "夜空中最亮的星.mp3"; sourceTree = "<group>"; };
+		B682F50F1D2257A00039AA4A /* IF YOU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "IF YOU.mp3"; sourceTree = "<group>"; };
+		B682F5131D2259610039AA4A /* 我的天空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我的天空.mp3"; sourceTree = "<group>"; };
+		B682F5181D2268A00039AA4A /* AndyConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyConst.h; sourceTree = "<group>"; };
+		B682F5191D2268A00039AA4A /* AndyConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyConst.m; sourceTree = "<group>"; };
+		B682F51F1D226D640039AA4A /* AndyEqualizerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerSlider.h; sourceTree = "<group>"; };
+		B682F5201D226D640039AA4A /* AndyEqualizerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerSlider.m; sourceTree = "<group>"; };
+		B682F5241D228FE10039AA4A /* AndyEqualizerEffectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerEffectModel.h; sourceTree = "<group>"; };
+		B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerEffectModel.m; sourceTree = "<group>"; };
+		B682F52C1D229DB00039AA4A /* AndyEqualizerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerConst.h; sourceTree = "<group>"; };
+		B682F52D1D229DB00039AA4A /* AndyEqualizerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerConst.m; sourceTree = "<group>"; };
+		B682F5301D22A2A90039AA4A /* AndyDictStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyDictStore.h; sourceTree = "<group>"; };
+		B682F5311D22A2A90039AA4A /* AndyDictStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyDictStore.m; sourceTree = "<group>"; };
+		B682F5331D22A2A90039AA4A /* AndyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyExtension.h; sourceTree = "<group>"; };
+		B682F5341D22A2A90039AA4A /* AndyFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyFoundation.h; sourceTree = "<group>"; };
+		B682F5351D22A2A90039AA4A /* AndyFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyFoundation.m; sourceTree = "<group>"; };
+		B682F5361D22A2A90039AA4A /* NSObject+AndyDurex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AndyDurex.h"; sourceTree = "<group>"; };
+		B682F5371D22A2A90039AA4A /* NSObject+AndyDurex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AndyDurex.m"; sourceTree = "<group>"; };
+		B682F5381D22A2A90039AA4A /* NSObject+AndyKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AndyKeyValue.h"; sourceTree = "<group>"; };
+		B682F5391D22A2A90039AA4A /* NSObject+AndyKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AndyKeyValue.m"; sourceTree = "<group>"; };
+		B682F53A1D22A2A90039AA4A /* AndyJsonStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyJsonStore.h; sourceTree = "<group>"; };
+		B682F53B1D22A2A90039AA4A /* AndyJsonStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyJsonStore.m; sourceTree = "<group>"; };
+		B682F53C1D22A2A90039AA4A /* AndySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndySingleton.h; sourceTree = "<group>"; };
+		B682F53D1D22A2A90039AA4A /* AndyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyStore.h; sourceTree = "<group>"; };
+		B682F53E1D22A2A90039AA4A /* AndyUserDefaultsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyUserDefaultsStore.h; sourceTree = "<group>"; };
+		B682F53F1D22A2A90039AA4A /* AndyUserDefaultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyUserDefaultsStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B682F4831D221A280039AA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF04831DA015D11233C3FD6 /* Pods_AndyEqualizer_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B682F49C1D221A290039AA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B682F4A71D221A290039AA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B67E223C1D2383E500B43B42 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B67E22431D23840900B43B42 /* AndyEqualizerTableViewCell.h */,
+				B67E22441D23840900B43B42 /* AndyEqualizerTableViewCell.m */,
+				B67E22451D23840900B43B42 /* AndyEqualizerTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B67E223D1D2383E500B43B42 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B67E223E1D2383E500B43B42 /* AndyEqualizerTableViewController.h */,
+				B67E223F1D2383E500B43B42 /* AndyEqualizerTableViewController.m */,
+				B67E22401D2383E500B43B42 /* AndyEqualizerTableViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B682F47D1D221A280039AA4A = {
+			isa = PBXGroup;
+			children = (
+				B682F4D21D221FE50039AA4A /* AndyEqualizer */,
+				B682F4881D221A280039AA4A /* AndyEqualizer_Test */,
+				B682F4A21D221A290039AA4A /* AndyEqualizer_TestTests */,
+				B682F4AD1D221A290039AA4A /* AndyEqualizer_TestUITests */,
+				B682F4871D221A280039AA4A /* Products */,
+				E84994C0E5A8C4CD9678E220 /* Pods */,
+				ED7D2C6BD405F9DDBCD713E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B682F4871D221A280039AA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4861D221A280039AA4A /* AndyEqualizer_Test.app */,
+				B682F49F1D221A290039AA4A /* AndyEqualizer_TestTests.xctest */,
+				B682F4AA1D221A290039AA4A /* AndyEqualizer_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B682F4881D221A280039AA4A /* AndyEqualizer_Test */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4BC1D221F880039AA4A /* Classes */,
+				B682F4C91D221F880039AA4A /* Other */,
+				B682F4891D221A280039AA4A /* Supporting Files */,
+			);
+			path = AndyEqualizer_Test;
+			sourceTree = "<group>";
+		};
+		B682F4891D221A280039AA4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4E01D2225F70039AA4A /* songs */,
+				B682F4951D221A290039AA4A /* Assets.xcassets */,
+				B682F49A1D221A290039AA4A /* Info.plist */,
+				B682F48A1D221A280039AA4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B682F4A21D221A290039AA4A /* AndyEqualizer_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4A31D221A290039AA4A /* AndyEqualizer_TestTests.m */,
+				B682F4A51D221A290039AA4A /* Info.plist */,
+			);
+			path = AndyEqualizer_TestTests;
+			sourceTree = "<group>";
+		};
+		B682F4AD1D221A290039AA4A /* AndyEqualizer_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4AE1D221A290039AA4A /* AndyEqualizer_TestUITests.m */,
+				B682F4B01D221A290039AA4A /* Info.plist */,
+			);
+			path = AndyEqualizer_TestUITests;
+			sourceTree = "<group>";
+		};
+		B682F4BC1D221F880039AA4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4BD1D221F880039AA4A /* EqualizeList */,
+				B682F4C11D221F880039AA4A /* Main */,
+				B682F4C51D221F880039AA4A /* Play */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B682F4BD1D221F880039AA4A /* EqualizeList */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4BE1D221F880039AA4A /* Model */,
+				B682F4BF1D221F880039AA4A /* View */,
+				B682F4C01D221F880039AA4A /* ViewModel */,
+			);
+			path = EqualizeList;
+			sourceTree = "<group>";
+		};
+		B682F4BE1D221F880039AA4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B682F4BF1D221F880039AA4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B67E223C1D2383E500B43B42 /* Cell */,
+				B67E223D1D2383E500B43B42 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B682F4C01D221F880039AA4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B682F4C11D221F880039AA4A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4C21D221F880039AA4A /* Model */,
+				B682F4C31D221F880039AA4A /* View */,
+				B682F4C41D221F880039AA4A /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B682F4C21D221F880039AA4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4EB1D22263B0039AA4A /* SongModel.h */,
+				B682F4EC1D22263B0039AA4A /* SongModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B682F4C31D221F880039AA4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4D71D2225440039AA4A /* AndyMainTableViewController.h */,
+				B682F4D81D2225440039AA4A /* AndyMainTableViewController.m */,
+				B682F4D91D2225440039AA4A /* AndyMainTableViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B682F4C41D221F880039AA4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B682F4C51D221F880039AA4A /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4C61D221F880039AA4A /* Model */,
+				B682F4C71D221F880039AA4A /* View */,
+				B682F4C81D221F880039AA4A /* ViewModel */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		B682F4C61D221F880039AA4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B682F4C71D221F880039AA4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B67E22371D2383DA00B43B42 /* AndyPlayViewController.h */,
+				B67E22381D2383DA00B43B42 /* AndyPlayViewController.m */,
+				B67E22391D2383DA00B43B42 /* AndyPlayViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B682F4C81D221F880039AA4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B682F4C91D221F880039AA4A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4CD1D221F880039AA4A /* Common */,
+				B682F4CC1D221F880039AA4A /* Category */,
+				B682F4CE1D221F880039AA4A /* Tool */,
+				B682F4CA1D221F880039AA4A /* AppDelegate.h */,
+				B682F4CB1D221F880039AA4A /* AppDelegate.m */,
+				B682F4D11D221FD60039AA4A /* Global.h */,
+				B682F4D01D221FBF0039AA4A /* PrefixHeader.pch */,
+				B682F5181D2268A00039AA4A /* AndyConst.h */,
+				B682F5191D2268A00039AA4A /* AndyConst.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B682F4CC1D221F880039AA4A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B67E22481D23853900B43B42 /* UIView+AndyExtension.h */,
+				B67E22491D23853900B43B42 /* UIView+AndyExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B682F4CD1D221F880039AA4A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B682F4CE1D221F880039AA4A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B682F52F1D22A2A90039AA4A /* AndyStore */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B682F4D21D221FE50039AA4A /* AndyEqualizer */ = {
+			isa = PBXGroup;
+			children = (
+				B628483D1D23A7EF009F4880 /* AndyEqualizer.bundle */,
+				B682F4D31D221FFA0039AA4A /* AndyEqualizer.h */,
+				B682F50A1D2254300039AA4A /* AndyPlayer.h */,
+				B682F50B1D2254300039AA4A /* AndyPlayer.m */,
+				B682F5241D228FE10039AA4A /* AndyEqualizerEffectModel.h */,
+				B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */,
+				B682F4F61D2234560039AA4A /* View */,
+				B682F52C1D229DB00039AA4A /* AndyEqualizerConst.h */,
+				B682F52D1D229DB00039AA4A /* AndyEqualizerConst.m */,
+			);
+			path = AndyEqualizer;
+			sourceTree = "<group>";
+		};
+		B682F4E01D2225F70039AA4A /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				B682F5131D2259610039AA4A /* 我的天空.mp3 */,
+				B682F50D1D2257A00039AA4A /* 那些年.mp3 */,
+				B682F50E1D2257A00039AA4A /* 夜空中最亮的星.mp3 */,
+				B682F50F1D2257A00039AA4A /* IF YOU.mp3 */,
+				B682F4E11D2225F70039AA4A /* test.mp3 */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+		B682F4F61D2234560039AA4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B682F4F71D2234560039AA4A /* AndyEqualizerView.h */,
+				B682F4F81D2234560039AA4A /* AndyEqualizerView.m */,
+				B682F51F1D226D640039AA4A /* AndyEqualizerSlider.h */,
+				B682F5201D226D640039AA4A /* AndyEqualizerSlider.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B682F52F1D22A2A90039AA4A /* AndyStore */ = {
+			isa = PBXGroup;
+			children = (
+				B682F5301D22A2A90039AA4A /* AndyDictStore.h */,
+				B682F5311D22A2A90039AA4A /* AndyDictStore.m */,
+				B682F5321D22A2A90039AA4A /* AndyExtension */,
+				B682F53A1D22A2A90039AA4A /* AndyJsonStore.h */,
+				B682F53B1D22A2A90039AA4A /* AndyJsonStore.m */,
+				B682F53C1D22A2A90039AA4A /* AndySingleton.h */,
+				B682F53D1D22A2A90039AA4A /* AndyStore.h */,
+				B682F53E1D22A2A90039AA4A /* AndyUserDefaultsStore.h */,
+				B682F53F1D22A2A90039AA4A /* AndyUserDefaultsStore.m */,
+			);
+			path = AndyStore;
+			sourceTree = "<group>";
+		};
+		B682F5321D22A2A90039AA4A /* AndyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B682F5331D22A2A90039AA4A /* AndyExtension.h */,
+				B682F5341D22A2A90039AA4A /* AndyFoundation.h */,
+				B682F5351D22A2A90039AA4A /* AndyFoundation.m */,
+				B682F5361D22A2A90039AA4A /* NSObject+AndyDurex.h */,
+				B682F5371D22A2A90039AA4A /* NSObject+AndyDurex.m */,
+				B682F5381D22A2A90039AA4A /* NSObject+AndyKeyValue.h */,
+				B682F5391D22A2A90039AA4A /* NSObject+AndyKeyValue.m */,
+			);
+			path = AndyExtension;
+			sourceTree = "<group>";
+		};
+		E84994C0E5A8C4CD9678E220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF5E24A586307DD6C60A79F9 /* Pods-AndyEqualizer_Test.debug.xcconfig */,
+				39239BD7BE6AC64919D8DBBB /* Pods-AndyEqualizer_Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED7D2C6BD405F9DDBCD713E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7EFFDFB7656337EDBEC22 /* Pods_AndyEqualizer_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B682F4851D221A280039AA4A /* AndyEqualizer_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B682F4B31D221A290039AA4A /* Build configuration list for PBXNativeTarget "AndyEqualizer_Test" */;
+			buildPhases = (
+				C0AFB61037A4C26D52912E7E /* [CP] Check Pods Manifest.lock */,
+				B682F4821D221A280039AA4A /* Sources */,
+				B682F4831D221A280039AA4A /* Frameworks */,
+				B682F4841D221A280039AA4A /* Resources */,
+				2932A4FA848C00B92FBCEBF9 /* [CP] Embed Pods Frameworks */,
+				181B6DC1F41CF8CF20F3DB4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndyEqualizer_Test;
+			productName = AndyEqualizer_Test;
+			productReference = B682F4861D221A280039AA4A /* AndyEqualizer_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B682F49E1D221A290039AA4A /* AndyEqualizer_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B682F4B61D221A290039AA4A /* Build configuration list for PBXNativeTarget "AndyEqualizer_TestTests" */;
+			buildPhases = (
+				B682F49B1D221A290039AA4A /* Sources */,
+				B682F49C1D221A290039AA4A /* Frameworks */,
+				B682F49D1D221A290039AA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B682F4A11D221A290039AA4A /* PBXTargetDependency */,
+			);
+			name = AndyEqualizer_TestTests;
+			productName = AndyEqualizer_TestTests;
+			productReference = B682F49F1D221A290039AA4A /* AndyEqualizer_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B682F4A91D221A290039AA4A /* AndyEqualizer_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B682F4B91D221A290039AA4A /* Build configuration list for PBXNativeTarget "AndyEqualizer_TestUITests" */;
+			buildPhases = (
+				B682F4A61D221A290039AA4A /* Sources */,
+				B682F4A71D221A290039AA4A /* Frameworks */,
+				B682F4A81D221A290039AA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B682F4AC1D221A290039AA4A /* PBXTargetDependency */,
+			);
+			name = AndyEqualizer_TestUITests;
+			productName = AndyEqualizer_TestUITests;
+			productReference = B682F4AA1D221A290039AA4A /* AndyEqualizer_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B682F47E1D221A280039AA4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Andy;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = andyli;
+				TargetAttributes = {
+					B682F4851D221A280039AA4A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B682F49E1D221A290039AA4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B682F4851D221A280039AA4A;
+					};
+					B682F4A91D221A290039AA4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B682F4851D221A280039AA4A;
+					};
+				};
+			};
+			buildConfigurationList = B682F4811D221A280039AA4A /* Build configuration list for PBXProject "AndyEqualizer_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B682F47D1D221A280039AA4A;
+			productRefGroup = B682F4871D221A280039AA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B682F4851D221A280039AA4A /* AndyEqualizer_Test */,
+				B682F49E1D221A290039AA4A /* AndyEqualizer_TestTests */,
+				B682F4A91D221A290039AA4A /* AndyEqualizer_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B682F4841D221A280039AA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628483E1D23A7EF009F4880 /* AndyEqualizer.bundle in Resources */,
+				B67E22421D2383E500B43B42 /* AndyEqualizerTableViewController.xib in Resources */,
+				B682F5121D2257A00039AA4A /* IF YOU.mp3 in Resources */,
+				B67E22471D23840900B43B42 /* AndyEqualizerTableViewCell.xib in Resources */,
+				B682F4DB1D2225440039AA4A /* AndyMainTableViewController.xib in Resources */,
+				B682F5141D2259610039AA4A /* 我的天空.mp3 in Resources */,
+				B682F5111D2257A00039AA4A /* 夜空中最亮的星.mp3 in Resources */,
+				B682F4961D221A290039AA4A /* Assets.xcassets in Resources */,
+				B67E223B1D2383DA00B43B42 /* AndyPlayViewController.xib in Resources */,
+				B682F4E31D2225F70039AA4A /* test.mp3 in Resources */,
+				B682F5101D2257A00039AA4A /* 那些年.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B682F49D1D221A290039AA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B682F4A81D221A290039AA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181B6DC1F41CF8CF20F3DB4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AndyEqualizer_Test/Pods-AndyEqualizer_Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2932A4FA848C00B92FBCEBF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AndyEqualizer_Test/Pods-AndyEqualizer_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AFB61037A4C26D52912E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B682F4821D221A280039AA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B682F51A1D2268A00039AA4A /* AndyConst.m in Sources */,
+				B682F52E1D229DB00039AA4A /* AndyEqualizerConst.m in Sources */,
+				B682F5441D22A2A90039AA4A /* AndyJsonStore.m in Sources */,
+				B682F5421D22A2A90039AA4A /* NSObject+AndyDurex.m in Sources */,
+				B682F5401D22A2A90039AA4A /* AndyDictStore.m in Sources */,
+				B682F5451D22A2A90039AA4A /* AndyUserDefaultsStore.m in Sources */,
+				B682F4CF1D221F880039AA4A /* AppDelegate.m in Sources */,
+				B682F5211D226D640039AA4A /* AndyEqualizerSlider.m in Sources */,
+				B682F5431D22A2A90039AA4A /* NSObject+AndyKeyValue.m in Sources */,
+				B67E22461D23840900B43B42 /* AndyEqualizerTableViewCell.m in Sources */,
+				B67E224A1D23853900B43B42 /* UIView+AndyExtension.m in Sources */,
+				B682F4DA1D2225440039AA4A /* AndyMainTableViewController.m in Sources */,
+				B67E22411D2383E500B43B42 /* AndyEqualizerTableViewController.m in Sources */,
+				B682F50C1D2254300039AA4A /* AndyPlayer.m in Sources */,
+				B682F4ED1D22263B0039AA4A /* SongModel.m in Sources */,
+				B682F5261D228FE10039AA4A /* AndyEqualizerEffectModel.m in Sources */,
+				B682F5411D22A2A90039AA4A /* AndyFoundation.m in Sources */,
+				B682F48B1D221A280039AA4A /* main.m in Sources */,
+				B67E223A1D2383DA00B43B42 /* AndyPlayViewController.m in Sources */,
+				B682F4F91D2234560039AA4A /* AndyEqualizerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B682F49B1D221A290039AA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B682F4A41D221A290039AA4A /* AndyEqualizer_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B682F4A61D221A290039AA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B682F4AF1D221A290039AA4A /* AndyEqualizer_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B682F4A11D221A290039AA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B682F4851D221A280039AA4A /* AndyEqualizer_Test */;
+			targetProxy = B682F4A01D221A290039AA4A /* PBXContainerItemProxy */;
+		};
+		B682F4AC1D221A290039AA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B682F4851D221A280039AA4A /* AndyEqualizer_Test */;
+			targetProxy = B682F4AB1D221A290039AA4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B682F4B11D221A290039AA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B682F4B21D221A290039AA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B682F4B41D221A290039AA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5E24A586307DD6C60A79F9 /* Pods-AndyEqualizer_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/AndyEqualizer_Test/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = AndyEqualizer_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy4app.AndyEqualizer-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		B682F4B51D221A290039AA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39239BD7BE6AC64919D8DBBB /* Pods-AndyEqualizer_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/AndyEqualizer_Test/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = AndyEqualizer_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy4app.AndyEqualizer-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		B682F4B71D221A290039AA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AndyEqualizer_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy4app.AndyEqualizer-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndyEqualizer_Test.app/AndyEqualizer_Test";
+			};
+			name = Debug;
+		};
+		B682F4B81D221A290039AA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AndyEqualizer_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy4app.AndyEqualizer-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndyEqualizer_Test.app/AndyEqualizer_Test";
+			};
+			name = Release;
+		};
+		B682F4BA1D221A290039AA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AndyEqualizer_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy4app.AndyEqualizer-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AndyEqualizer_Test;
+			};
+			name = Debug;
+		};
+		B682F4BB1D221A290039AA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AndyEqualizer_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy4app.AndyEqualizer-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AndyEqualizer_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B682F4811D221A280039AA4A /* Build configuration list for PBXProject "AndyEqualizer_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B682F4B11D221A290039AA4A /* Debug */,
+				B682F4B21D221A290039AA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B682F4B31D221A290039AA4A /* Build configuration list for PBXNativeTarget "AndyEqualizer_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B682F4B41D221A290039AA4A /* Debug */,
+				B682F4B51D221A290039AA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B682F4B61D221A290039AA4A /* Build configuration list for PBXNativeTarget "AndyEqualizer_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B682F4B71D221A290039AA4A /* Debug */,
+				B682F4B81D221A290039AA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B682F4B91D221A290039AA4A /* Build configuration list for PBXNativeTarget "AndyEqualizer_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B682F4BA1D221A290039AA4A /* Debug */,
+				B682F4BB1D221A290039AA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B682F47E1D221A280039AA4A /* Project object */;
+}
