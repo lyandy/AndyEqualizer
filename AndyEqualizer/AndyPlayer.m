@@ -1263,7 +1263,26 @@ static OSStatus inputRenderCallback (
 
 - (void)freeMemory
 {
+    //AUGraphUninitialize(processingGraph);
+    AUGraphClose(processingGraph);
+    DisposeAUGraph(processingGraph);
+    
+    
+    
+//    //free (_soundStruct->audioDataLeft);
+//    _soundStruct->audioDataLeft = 0;
+//    
+//        //free (_soundStruct->audioDataRight);
+//        _soundStruct->audioDataRight = 0;
+
+    
+    
     ExtAudioFileDispose (audioFileObject);
+    
+    _soundStruct = nil;
+    
+    [self configureAndInitializeAudioProcessingGraph];
+
 }
 
 /////////////////
@@ -1338,6 +1357,7 @@ static OSStatus inputRenderCallback (
         NSLog(@"%@",exportFile);
         _loading = true;
         [self readAudioFilesIntoMemory];
+        //[self configureAndInitializeAudioProcessingGraph];
         //[self startAUGraph];
     }];
     

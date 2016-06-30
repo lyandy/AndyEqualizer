@@ -123,8 +123,7 @@ static NSString * const songCellId = @"songCellId";
         //此处开始新的歌曲播放
         [[AndyDictStore sharedDictStore] setOrUpdateValue:sm.songName ForKey:CURRENT_PLAY_SONG_NAME];
         
-//        [self.player pauseAUGraph];
-//        [self.player freeMemory];
+        [self.player freeMemory];
         
         //设置歌曲播放路径
         [self.player setSongURLPath:sm.songURLPath];
