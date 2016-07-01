@@ -1050,14 +1050,25 @@ static OSStatus inputRenderCallback (
 
 - (void) readAudioFilesIntoMemory {
     
-    //NSURL *mp3file   = [[NSBundle mainBundle] URLForResource: @"30sec" withExtension: @"au"];
-    
-    NSURL *mp3file   = [[NSBundle mainBundle] URLForResource: @"AndyEqualizer.bundle/torrent" withExtension: @"mp3"];
-    
-    if ( audioFile != nil ) {
-        mp3file = audioFile;
-    }else{
+    NSURL *mp3file = nil;
+
+    if ( audioFile == nil )
+    {
+        mp3file   = [[NSBundle mainBundle] URLForResource: @"AndyEqualizer.bundle/torrent" withExtension: @"mp3"];
+        
+        if (mp3file == nil)
+        {
+            NSString* mainBundlePath = [[NSBundle mainBundle] resourcePath];
+            NSString* frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"Frameworks/AndyEqualizer.framework/AndyEqualizer.bundle"];
+            NSBundle * frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
+            
+            mp3file = [frameworkBundle URLForResource: @"torrent" withExtension: @"mp3"];
+        }
         NSLog(@"First reading file into memory");
+    }
+    else
+    {
+        mp3file = audioFile;
     }
     
     CFURLRef sourceURL = (__bridge CFURLRef)mp3file;
