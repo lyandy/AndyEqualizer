@@ -7,6 +7,7 @@
 //
 
 #import "AndyPlayer.h"
+#import "AndyEqualizerEffectModel.h"
 
 @implementation AndyPlayer
 
