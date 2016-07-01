@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2BF04831DA015D11233C3FD6 /* Pods_AndyEqualizer_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE7EFFDFB7656337EDBEC22 /* Pods_AndyEqualizer_Test.framework */; };
+		B600144E1D261E8600287924 /* AndyEqualizerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B600144B1D261E8600287924 /* AndyEqualizerSlider.m */; };
+		B600144F1D261E8600287924 /* AndyEqualizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B600144D1D261E8600287924 /* AndyEqualizerView.m */; };
 		B628483E1D23A7EF009F4880 /* AndyEqualizer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B628483D1D23A7EF009F4880 /* AndyEqualizer.bundle */; };
 		B67E223A1D2383DA00B43B42 /* AndyPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E22381D2383DA00B43B42 /* AndyPlayViewController.m */; };
 		B67E223B1D2383DA00B43B42 /* AndyPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B67E22391D2383DA00B43B42 /* AndyPlayViewController.xib */; };
@@ -25,14 +27,12 @@
 		B682F4DB1D2225440039AA4A /* AndyMainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B682F4D91D2225440039AA4A /* AndyMainTableViewController.xib */; };
 		B682F4E31D2225F70039AA4A /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F4E11D2225F70039AA4A /* test.mp3 */; };
 		B682F4ED1D22263B0039AA4A /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4EC1D22263B0039AA4A /* SongModel.m */; };
-		B682F4F91D2234560039AA4A /* AndyEqualizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F4F81D2234560039AA4A /* AndyEqualizerView.m */; };
 		B682F50C1D2254300039AA4A /* AndyPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F50B1D2254300039AA4A /* AndyPlayer.m */; };
 		B682F5101D2257A00039AA4A /* 那些年.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F50D1D2257A00039AA4A /* 那些年.mp3 */; };
 		B682F5111D2257A00039AA4A /* 夜空中最亮的星.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F50E1D2257A00039AA4A /* 夜空中最亮的星.mp3 */; };
 		B682F5121D2257A00039AA4A /* IF YOU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F50F1D2257A00039AA4A /* IF YOU.mp3 */; };
 		B682F5141D2259610039AA4A /* 我的天空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B682F5131D2259610039AA4A /* 我的天空.mp3 */; };
 		B682F51A1D2268A00039AA4A /* AndyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5191D2268A00039AA4A /* AndyConst.m */; };
-		B682F5211D226D640039AA4A /* AndyEqualizerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5201D226D640039AA4A /* AndyEqualizerSlider.m */; };
 		B682F5261D228FE10039AA4A /* AndyEqualizerEffectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */; };
 		B682F52E1D229DB00039AA4A /* AndyEqualizerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F52D1D229DB00039AA4A /* AndyEqualizerConst.m */; };
 		B682F5401D22A2A90039AA4A /* AndyDictStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5311D22A2A90039AA4A /* AndyDictStore.m */; };
@@ -64,6 +64,10 @@
 		2AE7EFFDFB7656337EDBEC22 /* Pods_AndyEqualizer_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndyEqualizer_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39239BD7BE6AC64919D8DBBB /* Pods-AndyEqualizer_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyEqualizer_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-AndyEqualizer_Test/Pods-AndyEqualizer_Test.release.xcconfig"; sourceTree = "<group>"; };
 		AF5E24A586307DD6C60A79F9 /* Pods-AndyEqualizer_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyEqualizer_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AndyEqualizer_Test/Pods-AndyEqualizer_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		B600144A1D261E8600287924 /* AndyEqualizerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerSlider.h; sourceTree = "<group>"; };
+		B600144B1D261E8600287924 /* AndyEqualizerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerSlider.m; sourceTree = "<group>"; };
+		B600144C1D261E8600287924 /* AndyEqualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerView.h; sourceTree = "<group>"; };
+		B600144D1D261E8600287924 /* AndyEqualizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerView.m; sourceTree = "<group>"; };
 		B628483D1D23A7EF009F4880 /* AndyEqualizer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AndyEqualizer.bundle; sourceTree = "<group>"; };
 		B67E22371D2383DA00B43B42 /* AndyPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyPlayViewController.h; sourceTree = "<group>"; };
 		B67E22381D2383DA00B43B42 /* AndyPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyPlayViewController.m; sourceTree = "<group>"; };
@@ -97,8 +101,6 @@
 		B682F4E11D2225F70039AA4A /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 		B682F4EB1D22263B0039AA4A /* SongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
 		B682F4EC1D22263B0039AA4A /* SongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongModel.m; sourceTree = "<group>"; };
-		B682F4F71D2234560039AA4A /* AndyEqualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerView.h; sourceTree = "<group>"; };
-		B682F4F81D2234560039AA4A /* AndyEqualizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerView.m; sourceTree = "<group>"; };
 		B682F50A1D2254300039AA4A /* AndyPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyPlayer.h; sourceTree = "<group>"; };
 		B682F50B1D2254300039AA4A /* AndyPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyPlayer.m; sourceTree = "<group>"; };
 		B682F50D1D2257A00039AA4A /* 那些年.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "那些年.mp3"; sourceTree = "<group>"; };
@@ -107,8 +109,6 @@
 		B682F5131D2259610039AA4A /* 我的天空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我的天空.mp3"; sourceTree = "<group>"; };
 		B682F5181D2268A00039AA4A /* AndyConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyConst.h; sourceTree = "<group>"; };
 		B682F5191D2268A00039AA4A /* AndyConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyConst.m; sourceTree = "<group>"; };
-		B682F51F1D226D640039AA4A /* AndyEqualizerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerSlider.h; sourceTree = "<group>"; };
-		B682F5201D226D640039AA4A /* AndyEqualizerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerSlider.m; sourceTree = "<group>"; };
 		B682F5241D228FE10039AA4A /* AndyEqualizerEffectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerEffectModel.h; sourceTree = "<group>"; };
 		B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerEffectModel.m; sourceTree = "<group>"; };
 		B682F52C1D229DB00039AA4A /* AndyEqualizerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerConst.h; sourceTree = "<group>"; };
@@ -156,6 +156,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60014491D261E8600287924 /* AndyEqualizerView */ = {
+			isa = PBXGroup;
+			children = (
+				B600144A1D261E8600287924 /* AndyEqualizerSlider.h */,
+				B600144B1D261E8600287924 /* AndyEqualizerSlider.m */,
+				B600144C1D261E8600287924 /* AndyEqualizerView.h */,
+				B600144D1D261E8600287924 /* AndyEqualizerView.m */,
+			);
+			path = AndyEqualizerView;
+			sourceTree = "<group>";
+		};
 		B67E223C1D2383E500B43B42 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +190,7 @@
 		B682F47D1D221A280039AA4A = {
 			isa = PBXGroup;
 			children = (
+				B60014491D261E8600287924 /* AndyEqualizerView */,
 				B682F4D21D221FE50039AA4A /* AndyEqualizer */,
 				B682F4881D221A280039AA4A /* AndyEqualizer_Test */,
 				B682F4A21D221A290039AA4A /* AndyEqualizer_TestTests */,
@@ -400,7 +412,6 @@
 				B682F50B1D2254300039AA4A /* AndyPlayer.m */,
 				B682F5241D228FE10039AA4A /* AndyEqualizerEffectModel.h */,
 				B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */,
-				B682F4F61D2234560039AA4A /* View */,
 				B682F52C1D229DB00039AA4A /* AndyEqualizerConst.h */,
 				B682F52D1D229DB00039AA4A /* AndyEqualizerConst.m */,
 			);
@@ -417,17 +428,6 @@
 				B682F4E11D2225F70039AA4A /* test.mp3 */,
 			);
 			path = songs;
-			sourceTree = "<group>";
-		};
-		B682F4F61D2234560039AA4A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B682F4F71D2234560039AA4A /* AndyEqualizerView.h */,
-				B682F4F81D2234560039AA4A /* AndyEqualizerView.m */,
-				B682F51F1D226D640039AA4A /* AndyEqualizerSlider.h */,
-				B682F5201D226D640039AA4A /* AndyEqualizerSlider.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		B682F52F1D22A2A90039AA4A /* AndyStore */ = {
@@ -669,12 +669,12 @@
 			files = (
 				B682F51A1D2268A00039AA4A /* AndyConst.m in Sources */,
 				B682F52E1D229DB00039AA4A /* AndyEqualizerConst.m in Sources */,
+				B600144E1D261E8600287924 /* AndyEqualizerSlider.m in Sources */,
 				B682F5441D22A2A90039AA4A /* AndyJsonStore.m in Sources */,
 				B682F5421D22A2A90039AA4A /* NSObject+AndyDurex.m in Sources */,
 				B682F5401D22A2A90039AA4A /* AndyDictStore.m in Sources */,
 				B682F5451D22A2A90039AA4A /* AndyUserDefaultsStore.m in Sources */,
 				B682F4CF1D221F880039AA4A /* AppDelegate.m in Sources */,
-				B682F5211D226D640039AA4A /* AndyEqualizerSlider.m in Sources */,
 				B682F5431D22A2A90039AA4A /* NSObject+AndyKeyValue.m in Sources */,
 				B67E22461D23840900B43B42 /* AndyEqualizerTableViewCell.m in Sources */,
 				B67E224A1D23853900B43B42 /* UIView+AndyExtension.m in Sources */,
@@ -686,7 +686,7 @@
 				B682F5411D22A2A90039AA4A /* AndyFoundation.m in Sources */,
 				B682F48B1D221A280039AA4A /* main.m in Sources */,
 				B67E223A1D2383DA00B43B42 /* AndyPlayViewController.m in Sources */,
-				B682F4F91D2234560039AA4A /* AndyEqualizerView.m in Sources */,
+				B600144F1D261E8600287924 /* AndyEqualizerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
