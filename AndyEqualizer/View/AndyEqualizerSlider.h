@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AndyPlayer.h"
 
 @interface AndyEqualizerSlider : UIView
 
