@@ -1263,23 +1263,17 @@ static OSStatus inputRenderCallback (
 
 - (void)freeMemory
 {
-    //AUGraphUninitialize(processingGraph);
+    AUGraphUninitialize(processingGraph);
     AUGraphClose(processingGraph);
     DisposeAUGraph(processingGraph);
-    
-    
-    
-//    //free (_soundStruct->audioDataLeft);
-//    _soundStruct->audioDataLeft = 0;
-//    
-//        //free (_soundStruct->audioDataRight);
-//        _soundStruct->audioDataRight = 0;
 
-    
-    
     ExtAudioFileDispose (audioFileObject);
     
     _soundStruct = nil;
+    
+    audioFileObject = nil;
+    
+    processingGraph = nil;
     
     [self configureAndInitializeAudioProcessingGraph];
 
