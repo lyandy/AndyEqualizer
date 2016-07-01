@@ -234,7 +234,7 @@
 
 - (NSDictionary *)andy_keyValues
 {
-    //如果是Foundation框架下的类型,比如NSArray下是@[@12,@12,@12,@12,@12,@12,@12,@12,@12,@12]，根本没有key，此时直接返回即可。
+    //如果是Foundation框架下的类型,比如NSArray下是{"name":"超重低音","gainArray":[6,8,7,4,0,-1,-5,1,2,-2],"equalizerEffect":2}，根本没有key，此时直接返回即可。
     if ([self class] && [AndyFoundation isClassFromFoundation:[self class]]) {
         return (NSDictionary *)self;
     }

@@ -1,4 +1,7 @@
 PODS:
+  - AndyExtension (1.0.2)
+  - AndyStore (1.0.5):
+    - AndyExtension (~> 1.0.2)
   - Masonry (1.0.1)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -9,13 +12,16 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
+  - AndyStore
   - Masonry
   - ReactiveCocoa
 
 SPEC CHECKSUMS:
+  AndyExtension: 6303a8e47649b3d03cd9803ec01c34a41f663585
+  AndyStore: ae9a043a4b6f68dd73d0607ced4393b7c23cb616
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: cecc0510f216a601bf8f41da3c1f5899dae3a94b
+PODFILE CHECKSUM: 23ac7e53046be8cfc3910a73da54df82349b7eb7
 
 COCOAPODS: 1.0.1

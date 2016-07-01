@@ -1,0 +1,6 @@
+framework module AndyStore {
+  umbrella header "AndyStore-umbrella.h"
+
+  export *
+  module * { export * }
+}

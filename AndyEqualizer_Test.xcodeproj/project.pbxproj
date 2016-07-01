@@ -35,12 +35,6 @@
 		B682F51A1D2268A00039AA4A /* AndyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5191D2268A00039AA4A /* AndyConst.m */; };
 		B682F5261D228FE10039AA4A /* AndyEqualizerEffectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */; };
 		B682F52E1D229DB00039AA4A /* AndyEqualizerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F52D1D229DB00039AA4A /* AndyEqualizerConst.m */; };
-		B682F5401D22A2A90039AA4A /* AndyDictStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5311D22A2A90039AA4A /* AndyDictStore.m */; };
-		B682F5411D22A2A90039AA4A /* AndyFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5351D22A2A90039AA4A /* AndyFoundation.m */; };
-		B682F5421D22A2A90039AA4A /* NSObject+AndyDurex.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5371D22A2A90039AA4A /* NSObject+AndyDurex.m */; };
-		B682F5431D22A2A90039AA4A /* NSObject+AndyKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F5391D22A2A90039AA4A /* NSObject+AndyKeyValue.m */; };
-		B682F5441D22A2A90039AA4A /* AndyJsonStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F53B1D22A2A90039AA4A /* AndyJsonStore.m */; };
-		B682F5451D22A2A90039AA4A /* AndyUserDefaultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B682F53F1D22A2A90039AA4A /* AndyUserDefaultsStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,21 +107,6 @@
 		B682F5251D228FE10039AA4A /* AndyEqualizerEffectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerEffectModel.m; sourceTree = "<group>"; };
 		B682F52C1D229DB00039AA4A /* AndyEqualizerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyEqualizerConst.h; sourceTree = "<group>"; };
 		B682F52D1D229DB00039AA4A /* AndyEqualizerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyEqualizerConst.m; sourceTree = "<group>"; };
-		B682F5301D22A2A90039AA4A /* AndyDictStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyDictStore.h; sourceTree = "<group>"; };
-		B682F5311D22A2A90039AA4A /* AndyDictStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyDictStore.m; sourceTree = "<group>"; };
-		B682F5331D22A2A90039AA4A /* AndyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyExtension.h; sourceTree = "<group>"; };
-		B682F5341D22A2A90039AA4A /* AndyFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyFoundation.h; sourceTree = "<group>"; };
-		B682F5351D22A2A90039AA4A /* AndyFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyFoundation.m; sourceTree = "<group>"; };
-		B682F5361D22A2A90039AA4A /* NSObject+AndyDurex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AndyDurex.h"; sourceTree = "<group>"; };
-		B682F5371D22A2A90039AA4A /* NSObject+AndyDurex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AndyDurex.m"; sourceTree = "<group>"; };
-		B682F5381D22A2A90039AA4A /* NSObject+AndyKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AndyKeyValue.h"; sourceTree = "<group>"; };
-		B682F5391D22A2A90039AA4A /* NSObject+AndyKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AndyKeyValue.m"; sourceTree = "<group>"; };
-		B682F53A1D22A2A90039AA4A /* AndyJsonStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyJsonStore.h; sourceTree = "<group>"; };
-		B682F53B1D22A2A90039AA4A /* AndyJsonStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyJsonStore.m; sourceTree = "<group>"; };
-		B682F53C1D22A2A90039AA4A /* AndySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndySingleton.h; sourceTree = "<group>"; };
-		B682F53D1D22A2A90039AA4A /* AndyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyStore.h; sourceTree = "<group>"; };
-		B682F53E1D22A2A90039AA4A /* AndyUserDefaultsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyUserDefaultsStore.h; sourceTree = "<group>"; };
-		B682F53F1D22A2A90039AA4A /* AndyUserDefaultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyUserDefaultsStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,7 +365,6 @@
 		B682F4CE1D221F880039AA4A /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				B682F52F1D22A2A90039AA4A /* AndyStore */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -420,36 +398,6 @@
 				B682F4E11D2225F70039AA4A /* test.mp3 */,
 			);
 			path = songs;
-			sourceTree = "<group>";
-		};
-		B682F52F1D22A2A90039AA4A /* AndyStore */ = {
-			isa = PBXGroup;
-			children = (
-				B682F5301D22A2A90039AA4A /* AndyDictStore.h */,
-				B682F5311D22A2A90039AA4A /* AndyDictStore.m */,
-				B682F5321D22A2A90039AA4A /* AndyExtension */,
-				B682F53A1D22A2A90039AA4A /* AndyJsonStore.h */,
-				B682F53B1D22A2A90039AA4A /* AndyJsonStore.m */,
-				B682F53C1D22A2A90039AA4A /* AndySingleton.h */,
-				B682F53D1D22A2A90039AA4A /* AndyStore.h */,
-				B682F53E1D22A2A90039AA4A /* AndyUserDefaultsStore.h */,
-				B682F53F1D22A2A90039AA4A /* AndyUserDefaultsStore.m */,
-			);
-			path = AndyStore;
-			sourceTree = "<group>";
-		};
-		B682F5321D22A2A90039AA4A /* AndyExtension */ = {
-			isa = PBXGroup;
-			children = (
-				B682F5331D22A2A90039AA4A /* AndyExtension.h */,
-				B682F5341D22A2A90039AA4A /* AndyFoundation.h */,
-				B682F5351D22A2A90039AA4A /* AndyFoundation.m */,
-				B682F5361D22A2A90039AA4A /* NSObject+AndyDurex.h */,
-				B682F5371D22A2A90039AA4A /* NSObject+AndyDurex.m */,
-				B682F5381D22A2A90039AA4A /* NSObject+AndyKeyValue.h */,
-				B682F5391D22A2A90039AA4A /* NSObject+AndyKeyValue.m */,
-			);
-			path = AndyExtension;
 			sourceTree = "<group>";
 		};
 		E84994C0E5A8C4CD9678E220 /* Pods */ = {
@@ -662,12 +610,7 @@
 				B682F51A1D2268A00039AA4A /* AndyConst.m in Sources */,
 				B682F52E1D229DB00039AA4A /* AndyEqualizerConst.m in Sources */,
 				B60014541D26208600287924 /* AndyEqualizerSlider.m in Sources */,
-				B682F5441D22A2A90039AA4A /* AndyJsonStore.m in Sources */,
-				B682F5421D22A2A90039AA4A /* NSObject+AndyDurex.m in Sources */,
-				B682F5401D22A2A90039AA4A /* AndyDictStore.m in Sources */,
-				B682F5451D22A2A90039AA4A /* AndyUserDefaultsStore.m in Sources */,
 				B682F4CF1D221F880039AA4A /* AppDelegate.m in Sources */,
-				B682F5431D22A2A90039AA4A /* NSObject+AndyKeyValue.m in Sources */,
 				B67E22461D23840900B43B42 /* AndyEqualizerTableViewCell.m in Sources */,
 				B67E224A1D23853900B43B42 /* UIView+AndyExtension.m in Sources */,
 				B682F4DA1D2225440039AA4A /* AndyMainTableViewController.m in Sources */,
@@ -675,7 +618,6 @@
 				B682F50C1D2254300039AA4A /* AndyPlayer.m in Sources */,
 				B682F4ED1D22263B0039AA4A /* SongModel.m in Sources */,
 				B682F5261D228FE10039AA4A /* AndyEqualizerEffectModel.m in Sources */,
-				B682F5411D22A2A90039AA4A /* AndyFoundation.m in Sources */,
 				B682F48B1D221A280039AA4A /* main.m in Sources */,
 				B67E223A1D2383DA00B43B42 /* AndyPlayViewController.m in Sources */,
 				B60014551D26208600287924 /* AndyEqualizerView.m in Sources */,

@@ -1,0 +1,6 @@
+framework module AndyExtension {
+  umbrella header "AndyExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

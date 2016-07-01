@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AndyDictStore.h"
 #import "AndySingleton.h"
 
 @interface AndyDictStore : NSObject

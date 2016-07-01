@@ -6,5 +6,6 @@ target 'AndyEqualizer_Test' do
 
 pod 'Masonry'
 pod 'ReactiveCocoa'
+pod 'AndyStore'
 
 end
