@@ -9,6 +9,7 @@
 #import "AndyEqualizerView.h"
 #import "AndyEqualizerSlider.h"
 #import "AndyPlayer.h"
+#import "AndyEqualizerEffectModel.h"
 
 @interface AndyEqualizerView ()
 
